@@ -21,8 +21,8 @@ TAILSCALE_HOSTNAME=$(echo "$CERT_CN" | sed 's/\.[^.]*$//')
 ORIGINAL_APP_PROXY_DOCKER_IMAGE="getumbrel/app-proxy:1.0.0@sha256:49eb600c4667c4b948055e33171b42a509b7e0894a77e0ca40df8284c77b52fb"
 ORIGINAL_APP_AUTH_DOCKER_IMAGE="getumbrel/auth-server:1.0.5@sha256:b4a4b37896911a85fb74fa159e010129abd9dff751a40ef82f724ae066db3c2a"
 
-MODDED_APP_PROXY_DOCKER_IMAGE="ghcr.io/sahilph/umbrel-app-proxy:sha-cd53f3c"
-MODDED_APP_AUTH_DOCKER_IMAGE="ghcr.io/sahilph/umbrel-auth-server:sha-cd53f3c"
+MODDED_APP_PROXY_DOCKER_IMAGE="ghcr.io/sahilph/umbrel-app-proxy:0.0.3@sha256:2f06f59e2bc8ac01823d4b3ee52a7d799241327ac5158e6af8d781196e8a8f3c"
+MODDED_APP_AUTH_DOCKER_IMAGE="ghcr.io/sahilph/umbrel-auth-server:0.0.3@sha256:54913931e4da5e36b1fe4b8760d77abbaa45c03b6cefae48cf46e675ecb1b1d1"
 
 ## Backup Dirs
 
