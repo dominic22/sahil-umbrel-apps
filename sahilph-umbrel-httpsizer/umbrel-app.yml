@@ -32,6 +32,8 @@ gallery:
   - https://i.imgur.com/KzA3e6r.png
   - https://i.imgur.com/pPLE5Kk.png
 releaseNotes: >-
+  ⚠️ Note: you will need to manually restart your umbrel after update.  ⚠️
+  
   v0.0.3
   Add support for Umbrel 1.4.2  
   
@@ -39,6 +41,6 @@ releaseNotes: >-
   1. Add Tailscale Hostname in the Certificate
   2. Fix Websocket over SSL Issues.
   
-  ⚠️ Note: you will need to manually restart your umbrel after update.  ⚠️
+  
 path: ""
 defaultPassword: ""
