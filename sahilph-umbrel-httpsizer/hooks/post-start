@@ -77,5 +77,5 @@ if [[ ! -f "${BACKUP_SERVER_INDEX_TS_PATH}" ]]; then
   sed -i 's|upgradeInsecureRequests: null|upgradeInsecureRequests: \[\]|' "${ORGINAL_SERVER_INDEX_TS_PATH}"
   
   # Allow the http version of the hostname in CSP 
-  sed -i "s|connectSrc: \[\"'self'\", 'https://apps.umbrel.com'\]|connectSrc: \['http://${CERT_CN}', 'http://${TAILSCALE_HOSTNAME}', \"'self'\", 'https://apps.umbrel.com'\]|" "${ORGINAL_SERVER_INDEX_TS_PATH}"
+  sed -i "s|connectSrc: \[\"'self'\", 'https://apps.umbrel.com'\]|connectSrc: \['https:', 'http://${CERT_CN}', 'http://${TAILSCALE_HOSTNAME}', \"'self'\", 'https://apps.umbrel.com'\]|" "${ORGINAL_SERVER_INDEX_TS_PATH}"
 fi
