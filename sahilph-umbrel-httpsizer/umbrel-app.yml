@@ -4,7 +4,7 @@ category: networking
 name: Umbrel HTTPSizer
 version: "0.0.2"
 tagline: Secure your umbrel in you local network
-icon: https://svgshare.com/i/1BAu.svg
+icon: https://raw.githubusercontent.com/sahilph/umbrel-HTTPSizer/refs/heads/master/umbrel-HTTPSizer/public/images/logo.svg
 description: >-
   
   Secure your umbrel in you local network.
