@@ -11,7 +11,7 @@
 
 URL: 
 ```
-https://github.com/sahilph/sahil-umbrel-apps
+https://github.com/dominic22/sahil-umbrel-apps
 ```
 
 Video Guide:
